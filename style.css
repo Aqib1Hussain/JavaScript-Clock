@@ -1,0 +1,26 @@
+body{
+    background: cadetblue;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.hours, .minutes, .seconds{
+    background: rgb(94, 129, 143);
+    
+    
+    border-radius: 30px;
+    width: 150px;
+    height: 200px;
+    
+    margin: 50px;
+    color: rgb(0, 162, 255);
+    font-size: 4.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
